@@ -63,9 +63,8 @@ public class SamplePlugin extends JavaPlugin {
 ```
 ```xml
 <dependency>
-    <groupId>dev.m1n1don</groupId>
-    <artifactId>CommandLib</artifactId>
-    <version>1.0</version>
-    <scope>compile</scope>
+    <groupId>com.github.Elic0de</groupId>
+	<artifactId>SpigotCommandLib</artifactId>
+    <version>deabc8f9be</version>
 </dependency>
 ```
