@@ -52,3 +52,20 @@ public class SamplePlugin extends JavaPlugin {
     }
 }
 ```
+#For Developer
+## Maven
+
+```xml
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+```xml
+<dependency>
+    <groupId>dev.m1n1don</groupId>
+    <artifactId>CommandLib</artifactId>
+    <version>1.0</version>
+    <scope>compile</scope>
+</dependency>
+```
