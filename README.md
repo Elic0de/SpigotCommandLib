@@ -1,6 +1,6 @@
 # SpigotCommandLib
 
-## 更新されなくなったSpigotCOmmandLibのバグなどを修正したライブラリです
+## 更新されなくなったSpigotCommandLibのバグなどを修正したライブラリです
 
 A command library to increase the development rate and reduce boiler plate code for Spigot developers.
 
