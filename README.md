@@ -15,17 +15,29 @@ Here is a quick sample for 3 commands:
 ```java
 public class MyPluginCommands implements CommandHandler {
 
-    @CommandHandle(command = {"sum|add"}, permission = "myplugin.commands.sum", description = "Make a quick calculation. Addition.")
+    @CommandHandle(
+	command = {"sum|add"},
+	permission = "myplugin.commands.sum",
+	description = "Make a quick calculation. Addition."
+    )
     public void add(CommandSender sender, int firstNum, int secondNum) {
         sender.sendMessage(ChatColor.GREEN.toString() + firstNum + " + " + secondNum + " = " + (firstNum + secondNum));
     }
     
-    @CommandHandle(command = {"subtract|sub|difference"}, permission = "myplugin.commands.sub", description = "Make a quick calculation. Subtraction")
+    @CommandHandle(
+	command = {"subtract|sub|difference"},
+	permission = "myplugin.commands.sub",
+	description = "Make a quick calculation. Subtraction"
+    )
     public void sub(CommandSender sender, int firstNum, int secondNum) {
         sender.sendMessage(ChatColor.GREEN.toString() + firstNum + " - " + secondNum + " = " + (firstNum - secondNum));
     }
     
-    @CommandHandle(command = "rename", permission = "myplugin.commands.itemrename", description = "Rename the item you are holding.")
+    @CommandHandle(
+	command = "rename",
+	permission = "myplugin.commands.itemrename",
+	description = "Rename the item you are holding."
+    )
     public void rename(Player sender, String newName) {
         //Strings with spaces can be given like this: /rename "&bNew name for item"
         ItemStack item = sender.getItemInHand();
