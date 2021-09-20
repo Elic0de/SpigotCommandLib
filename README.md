@@ -52,7 +52,7 @@ public class SamplePlugin extends JavaPlugin {
     }
 }
 ```
-#For Developer
+# For Developer
 ## Maven
 
 ```xml
